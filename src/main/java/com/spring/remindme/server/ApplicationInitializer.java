@@ -11,7 +11,7 @@ import javax.servlet.ServletRegistration;
 
 public class ApplicationInitializer implements WebApplicationInitializer {
 
-    private final static  String DISPATCHER = "dispatcher";
+    private final static String DISPATCHER = "dispatcher";
 
     public void onStartup(javax.servlet.ServletContext servletContext) throws ServletException {
 
